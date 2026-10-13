@@ -320,25 +320,26 @@ DIVIDE(FaturamentoAcumulado, FaturamentoTotal, 0)
 ## Parte 10. Dashboard Executivo & Visual Storytelling
 O painel no Power BI foi projetado aplicando princípios de UX/UI e Storytelling em 3 Atos, direcionando a atenção do tomador de decisão da visão geral para a auditoria detalhada:
 
-<img width="1457" height="813" alt="image" src="https://github.com/user-attachments/assets/4a62d8ab-0129-4c7e-81e8-50181e3be3d0" />
-
-<img width="1448" height="803" alt="image" src="https://github.com/user-attachments/assets/113cfeeb-f5eb-4325-89a2-99efeb0a9253" />
+<img width="1303" height="729" alt="image" src="https://github.com/user-attachments/assets/be71e715-2abb-4b8b-8d1c-3ff372874b40" />
 
 Estrutura Visual da Tela:
-## Ato 1: O Panorama Geral (Topo)
-- Cartões de KPI de alto impacto: Faturamento Total, Caixa Realizado, Lacuna R$ e Taxa de Inadimplência (%).
+## O Panorama Geral (Topo)
+- Cartões de KPI de alto impacto: Faturamento Total, Caixa Realizado (Total em caixa), Lacuna R$ e Taxa de Inadimplência (%).
+- 
+## Diagnóstico da Inadimplência (Centro)
+- Gráfico de colunas agrupadas ilustrando o faturamento nominal vs o caixa realizado por área do direito, além de revelar a taxa percentual de pendencia de cada área(quanto de dinheiro esta sendo perdido) .
+- Gráfico de pizza mapeando a gravidade dos atrasos por Modalidade de Contrato (Partido Fixo vs. Êxito). Sendo os contratos por Êxito representando 64% da inadimplência do escritório.
 
-## Ato 2: Diagnóstico da Inadimplência (Centro)
-- Gráfico Temporal/Barras: Evolução do Faturamento vs. Arrecadação por Área do Direito.
-- Gráfico de Aging List: Barras Empilhadas mapeando a gravidade dos atrasos por Modalidade de Contrato (Partido Fixo vs. Êxito).
+<img width="1303" height="724" alt="image" src="https://github.com/user-attachments/assets/7818a9a9-e591-467d-92d5-b37e69e40bc4" />
 
-## Ato 3: Análise de Risco & Ação (Base)
-- Gráfico de Pareto: Mapeamento da concentração de faturamento nos maiores clientes.
-- Matriz de Clientes: Tabela dinâmica com o [Rank_Cliente], permitindo comparar a receita nominal versus o caixa liquidado conta por conta.
+## Análise de Risco & Ação (Base)
+- Matriz de Clientes que com o [Rank_Cliente] permite comparar a receita nominal versus o caixa liquidado conta por conta,.
+- Gráfico de Pareto que realiza o mapeamento da concentração de faturamento nos maiores clientes.
+- Gráfico de linhas mapeando o crescimento da inadimplência por mês e ano além de apresentar o crescimento do total de faturamento dentro do prazo analisado.
 
 ##Parte 11. Principais Resultados e Insights
 A partir do cruzamento das análises em SQL e do dashboard no Power BI, comprovaram-se os seguintes pontos críticos de negócio:
--  **Concentração de Inadimplência na Área Trabalhista**: A carteira Trabalhista representa o maior volume nominal de faturamento, porém é responsável por mais de 60% dos títulos retidos na faixa crítica de atraso (> 60 dias).
+-  **Concentração de Inadimplência na Área Tributaria**: A carteira Tributaria representa o maior volume nominal de faturamento (com R$ 847.734.000 de faturamento), porém é o que possui a maior lacuna de diferença de capital e a taxa percentual de pendencia de 13,28%.
 
 - **Vulnerabilidade nos Contratos por Êxito**: Contratos sob modalidade de Êxito possuem um ciclo médio de recebimento 3x mais longo do que contratos de Partido Fixo, criando momentos de severa restrição de capital de giro durante trimestres de baixa liquidação de processos.
 
@@ -348,7 +349,7 @@ A partir do cruzamento das análises em SQL e do dashboard no Power BI, comprova
 Síntese
 A análise demonstrou que a saúde financeira do escritório não é comprometida pela falta de novos contratos (volume comercial alto), mas sim pela ineficiência na gestão de cobrança do faturamento faturado e não realizado.
 Recomendações Estratégicas:
-Revisão da Política de Crédito para a Área Trabalhista: Estabelecer gatilhos de cobrança administrativa preventiva assim que a fatura atingir 15 dias de atraso (Faixa 1-30d).
+Revisão da Política de Crédito para a Área Tributaria: Estabelecer gatilhos de cobrança administrativa preventiva assim que a fatura atingir 15 dias de atraso (Faixa 1-30d).
 Rebalanceamento de Modalidades Contratuais: Incentivar a transição de contratos puros de Êxito para modelos híbridos (Fixa de Manutenção + Êxito Final), garantindo previsibilidade de caixa mensal.
 Gestão Dedicada para os Top 10 Clientes (Pareto): Criar um comitê de acompanhamento quinzenal para monitorar o status financeiro das contas que compõem os 65% da receita global do escritório.
 
