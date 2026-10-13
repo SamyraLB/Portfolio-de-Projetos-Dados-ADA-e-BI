@@ -1,0 +1,951 @@
+id_cliente,nome_cliente,porte_cliente,segmento_atuacao,data_inicio_relacionamento,status_cliente
+CLI-001,Empresa B1,Pequeno,Financeiro,2022-04-25,Cancelado
+CLI-002,Empresa C2,Médio,Tecnologia,2024-01-30,Ativo
+CLI-003,Empresa D3,Pequeno,Construção Civil,2022-09-08,Ativo
+CLI-004,Empresa E4,Pequeno,Varejo,2022-05-23,Cancelado
+CLI-005,Empresa F5,Médio,Financeiro,2022-04-15,Ativo
+CLI-006,Empresa G6,Pequeno,Financeiro,2024-01-29,Cancelado
+CLI-007,Empresa H7,Médio,Logística,2022-03-31,Ativo
+CLI-008,Empresa I8,Pequeno,Logística,2023-03-09,Ativo
+CLI-009,Empresa J9,Pequeno,Tecnologia,2022-01-31,Ativo
+CLI-010,Empresa K10,Pequeno,Tecnologia,2022-08-12,Ativo
+CLI-011,Empresa L11,Médio,Varejo,2023-06-02,Ativo
+CLI-012,Empresa M12,Pequeno,Logística,2022-01-28,Ativo
+CLI-013,Empresa N13,Pequeno,Logística,2022-07-23,Ativo
+CLI-014,Empresa O14,Pequeno,Financeiro,2023-10-28,Ativo
+CLI-015,Empresa P15,Médio,Financeiro,2023-07-13,Ativo
+CLI-016,Empresa Q16,Médio,Saúde,2022-08-14,Ativo
+CLI-017,Empresa R17,Pequeno,Saúde,2023-08-27,Cancelado
+CLI-018,Empresa S18,Grande,Construção Civil,2022-01-07,Ativo
+CLI-019,Empresa T19,Pequeno,Varejo,2023-12-16,Ativo
+CLI-020,Empresa U20,Médio,Saúde,2022-12-15,Ativo
+CLI-021,Empresa V21,Pequeno,Construção Civil,2022-06-09,Ativo
+CLI-022,Empresa W22,Pequeno,Varejo,2024-02-21,Cancelado
+CLI-023,Empresa X23,Pequeno,Construção Civil,2022-04-15,Ativo
+CLI-024,Empresa Y24,Pequeno,Tecnologia,2023-01-25,Ativo
+CLI-025,Empresa Z25,Médio,Tecnologia,2023-01-03,Ativo
+CLI-026,Empresa A26,Grande,Construção Civil,2023-09-11,Ativo
+CLI-027,Empresa B27,Grande,Construção Civil,2022-02-14,Cancelado
+CLI-028,Empresa C28,Médio,Financeiro,2023-04-16,Cancelado
+CLI-029,Empresa D29,Pequeno,Logística,2022-05-08,Ativo
+CLI-030,Empresa E30,Pequeno,Saúde,2022-03-22,Ativo
+CLI-031,Empresa F31,Pequeno,Logística,2022-10-28,Ativo
+CLI-032,Empresa G32,Médio,Financeiro,2023-09-26,Ativo
+CLI-033,Empresa H33,Pequeno,Construção Civil,2023-08-15,Ativo
+CLI-034,Empresa I34,Pequeno,Varejo,2023-12-23,Ativo
+CLI-035,Empresa J35,Pequeno,Tecnologia,2022-02-16,Cancelado
+CLI-036,Empresa K36,Médio,Financeiro,2022-08-22,Ativo
+CLI-037,Empresa L37,Pequeno,Construção Civil,2022-03-23,Ativo
+CLI-038,Empresa M38,Médio,Varejo,2022-04-14,Ativo
+CLI-039,Empresa N39,Médio,Saúde,2022-10-12,Ativo
+CLI-040,Empresa O40,Pequeno,Saúde,2023-10-13,Ativo
+CLI-041,Empresa P41,Grande,Construção Civil,2022-06-16,Ativo
+CLI-042,Empresa Q42,Pequeno,Construção Civil,2022-12-30,Ativo
+CLI-043,Empresa R43,Pequeno,Varejo,2023-11-18,Ativo
+CLI-044,Empresa S44,Médio,Construção Civil,2023-12-20,Ativo
+CLI-045,Empresa T45,Grande,Financeiro,2023-10-26,Ativo
+CLI-046,Empresa U46,Pequeno,Tecnologia,2023-09-16,Ativo
+CLI-047,Empresa V47,Médio,Financeiro,2022-06-25,Ativo
+CLI-048,Empresa W48,Médio,Logística,2024-01-17,Ativo
+CLI-049,Empresa X49,Médio,Varejo,2022-06-17,Ativo
+CLI-050,Empresa Y50,Pequeno,Saúde,2023-01-24,Ativo
+CLI-051,Empresa Z51,Pequeno,Construção Civil,2023-10-18,Ativo
+CLI-052,Empresa A52,Pequeno,Financeiro,2023-07-25,Ativo
+CLI-053,Empresa B53,Grande,Varejo,2023-12-03,Ativo
+CLI-054,Empresa C54,Pequeno,Construção Civil,2024-02-26,Ativo
+CLI-055,Empresa D55,Pequeno,Tecnologia,2022-08-23,Ativo
+CLI-056,Empresa E56,Pequeno,Tecnologia,2022-11-20,Ativo
+CLI-057,Empresa F57,Grande,Saúde,2022-10-02,Ativo
+CLI-058,Empresa G58,Médio,Tecnologia,2022-08-05,Cancelado
+CLI-059,Empresa H59,Médio,Logística,2024-01-06,Ativo
+CLI-060,Empresa I60,Grande,Construção Civil,2022-08-06,Ativo
+CLI-061,Empresa J61,Médio,Financeiro,2023-05-27,Cancelado
+CLI-062,Empresa K62,Pequeno,Saúde,2023-10-21,Ativo
+CLI-063,Empresa L63,Pequeno,Saúde,2022-05-27,Ativo
+CLI-064,Empresa M64,Médio,Construção Civil,2022-05-23,Cancelado
+CLI-065,Empresa N65,Pequeno,Varejo,2024-02-02,Ativo
+CLI-066,Empresa O66,Pequeno,Logística,2023-07-06,Ativo
+CLI-067,Empresa P67,Pequeno,Construção Civil,2024-02-04,Ativo
+CLI-068,Empresa Q68,Grande,Logística,2023-03-15,Ativo
+CLI-069,Empresa R69,Médio,Logística,2023-02-13,Ativo
+CLI-070,Empresa S70,Pequeno,Construção Civil,2022-08-13,Cancelado
+CLI-071,Empresa T71,Grande,Varejo,2023-06-06,Ativo
+CLI-072,Empresa U72,Pequeno,Saúde,2022-04-04,Ativo
+CLI-073,Empresa V73,Pequeno,Tecnologia,2022-04-23,Ativo
+CLI-074,Empresa W74,Médio,Varejo,2023-10-05,Ativo
+CLI-075,Empresa X75,Pequeno,Varejo,2023-11-28,Ativo
+CLI-076,Empresa Y76,Grande,Saúde,2023-09-03,Ativo
+CLI-077,Empresa Z77,Pequeno,Tecnologia,2023-01-30,Ativo
+CLI-078,Empresa A78,Grande,Saúde,2023-09-03,Ativo
+CLI-079,Empresa B79,Médio,Saúde,2023-06-26,Ativo
+CLI-080,Empresa C80,Pequeno,Construção Civil,2023-07-21,Ativo
+CLI-081,Empresa D81,Pequeno,Tecnologia,2023-11-28,Ativo
+CLI-082,Empresa E82,Médio,Financeiro,2022-04-28,Ativo
+CLI-083,Empresa F83,Pequeno,Financeiro,2023-07-04,Ativo
+CLI-084,Empresa G84,Pequeno,Construção Civil,2024-02-27,Ativo
+CLI-085,Empresa H85,Pequeno,Financeiro,2022-12-15,Ativo
+CLI-086,Empresa I86,Médio,Tecnologia,2022-10-28,Ativo
+CLI-087,Empresa J87,Médio,Saúde,2022-06-11,Ativo
+CLI-088,Empresa K88,Médio,Saúde,2022-01-04,Ativo
+CLI-089,Empresa L89,Médio,Financeiro,2024-01-07,Ativo
+CLI-090,Empresa M90,Grande,Construção Civil,2023-05-28,Ativo
+CLI-091,Empresa N91,Pequeno,Varejo,2023-06-04,Ativo
+CLI-092,Empresa O92,Grande,Tecnologia,2023-10-03,Cancelado
+CLI-093,Empresa P93,Pequeno,Construção Civil,2023-10-17,Ativo
+CLI-094,Empresa Q94,Médio,Logística,2023-09-16,Ativo
+CLI-095,Empresa R95,Médio,Varejo,2022-06-06,Ativo
+CLI-096,Empresa S96,Pequeno,Construção Civil,2024-02-20,Cancelado
+CLI-097,Empresa T97,Grande,Varejo,2023-07-07,Ativo
+CLI-098,Empresa U98,Pequeno,Logística,2022-01-01,Ativo
+CLI-099,Empresa V99,Médio,Logística,2022-11-28,Cancelado
+CLI-100,Empresa W100,Grande,Saúde,2022-01-20,Ativo
+CLI-101,Empresa X101,Médio,Tecnologia,2023-01-07,Ativo
+CLI-102,Empresa Y102,Pequeno,Construção Civil,2022-09-03,Cancelado
+CLI-103,Empresa Z103,Médio,Tecnologia,2022-09-04,Ativo
+CLI-104,Empresa A104,Pequeno,Logística,2022-03-22,Ativo
+CLI-105,Empresa B105,Pequeno,Tecnologia,2024-01-20,Ativo
+CLI-106,Empresa C106,Médio,Saúde,2022-03-12,Ativo
+CLI-107,Empresa D107,Médio,Logística,2024-02-24,Ativo
+CLI-108,Empresa E108,Médio,Varejo,2022-05-12,Ativo
+CLI-109,Empresa F109,Pequeno,Financeiro,2023-05-02,Ativo
+CLI-110,Empresa G110,Médio,Logística,2022-06-19,Ativo
+CLI-111,Empresa H111,Médio,Construção Civil,2023-06-25,Ativo
+CLI-112,Empresa I112,Pequeno,Logística,2023-03-10,Ativo
+CLI-113,Empresa J113,Pequeno,Varejo,2023-07-07,Ativo
+CLI-114,Empresa K114,Grande,Financeiro,2023-12-08,Ativo
+CLI-115,Empresa L115,Grande,Varejo,2024-01-01,Ativo
+CLI-116,Empresa M116,Médio,Construção Civil,2023-02-13,Ativo
+CLI-117,Empresa N117,Médio,Financeiro,2023-10-28,Ativo
+CLI-118,Empresa O118,Pequeno,Construção Civil,2023-03-25,Ativo
+CLI-119,Empresa P119,Pequeno,Logística,2023-04-08,Ativo
+CLI-120,Empresa Q120,Médio,Tecnologia,2022-09-11,Ativo
+CLI-121,Empresa R121,Grande,Varejo,2022-03-07,Cancelado
+CLI-122,Empresa S122,Grande,Construção Civil,2022-01-22,Ativo
+CLI-123,Empresa T123,Pequeno,Logística,2023-07-22,Cancelado
+CLI-124,Empresa U124,Pequeno,Varejo,2023-08-26,Cancelado
+CLI-125,Empresa V125,Grande,Varejo,2022-01-08,Cancelado
+CLI-126,Empresa W126,Pequeno,Tecnologia,2023-12-26,Ativo
+CLI-127,Empresa X127,Grande,Financeiro,2022-03-02,Ativo
+CLI-128,Empresa Y128,Pequeno,Varejo,2022-03-11,Ativo
+CLI-129,Empresa Z129,Grande,Tecnologia,2022-12-05,Ativo
+CLI-130,Empresa A130,Médio,Tecnologia,2023-06-11,Ativo
+CLI-131,Empresa B131,Médio,Varejo,2022-10-13,Cancelado
+CLI-132,Empresa C132,Pequeno,Financeiro,2023-05-13,Ativo
+CLI-133,Empresa D133,Grande,Varejo,2023-07-07,Ativo
+CLI-134,Empresa E134,Médio,Varejo,2024-01-11,Ativo
+CLI-135,Empresa F135,Pequeno,Logística,2023-08-14,Ativo
+CLI-136,Empresa G136,Médio,Saúde,2022-09-06,Ativo
+CLI-137,Empresa H137,Grande,Saúde,2023-02-21,Cancelado
+CLI-138,Empresa I138,Médio,Varejo,2022-04-07,Ativo
+CLI-139,Empresa J139,Médio,Tecnologia,2023-11-06,Ativo
+CLI-140,Empresa K140,Médio,Saúde,2022-12-29,Ativo
+CLI-141,Empresa L141,Grande,Saúde,2023-02-25,Ativo
+CLI-142,Empresa M142,Pequeno,Saúde,2024-01-17,Ativo
+CLI-143,Empresa N143,Médio,Tecnologia,2023-11-21,Ativo
+CLI-144,Empresa O144,Pequeno,Financeiro,2023-10-24,Ativo
+CLI-145,Empresa P145,Pequeno,Tecnologia,2022-03-04,Ativo
+CLI-146,Empresa Q146,Pequeno,Saúde,2024-01-16,Ativo
+CLI-147,Empresa R147,Médio,Construção Civil,2022-04-22,Ativo
+CLI-148,Empresa S148,Pequeno,Varejo,2022-07-16,Ativo
+CLI-149,Empresa T149,Médio,Varejo,2023-07-04,Ativo
+CLI-150,Empresa U150,Médio,Saúde,2022-05-24,Ativo
+CLI-151,Empresa V151,Pequeno,Saúde,2022-07-07,Ativo
+CLI-152,Empresa W152,Médio,Construção Civil,2023-04-19,Ativo
+CLI-153,Empresa X153,Médio,Varejo,2022-03-19,Cancelado
+CLI-154,Empresa Y154,Médio,Saúde,2023-07-18,Ativo
+CLI-155,Empresa Z155,Médio,Tecnologia,2022-02-21,Ativo
+CLI-156,Empresa A156,Pequeno,Financeiro,2023-07-08,Ativo
+CLI-157,Empresa B157,Pequeno,Tecnologia,2022-04-06,Cancelado
+CLI-158,Empresa C158,Médio,Varejo,2022-06-20,Ativo
+CLI-159,Empresa D159,Pequeno,Saúde,2023-05-13,Ativo
+CLI-160,Empresa E160,Pequeno,Saúde,2022-08-07,Ativo
+CLI-161,Empresa F161,Médio,Saúde,2022-03-02,Ativo
+CLI-162,Empresa G162,Médio,Varejo,2023-01-24,Ativo
+CLI-163,Empresa H163,Grande,Tecnologia,2023-02-04,Ativo
+CLI-164,Empresa I164,Médio,Construção Civil,2023-04-11,Ativo
+CLI-165,Empresa J165,Pequeno,Construção Civil,2023-03-10,Ativo
+CLI-166,Empresa K166,Pequeno,Financeiro,2024-01-19,Ativo
+CLI-167,Empresa L167,Pequeno,Logística,2023-11-09,Ativo
+CLI-168,Empresa M168,Pequeno,Financeiro,2023-05-14,Ativo
+CLI-169,Empresa N169,Grande,Varejo,2022-07-14,Ativo
+CLI-170,Empresa O170,Pequeno,Construção Civil,2022-08-11,Ativo
+CLI-171,Empresa P171,Pequeno,Tecnologia,2023-08-17,Ativo
+CLI-172,Empresa Q172,Pequeno,Financeiro,2023-07-10,Ativo
+CLI-173,Empresa R173,Pequeno,Tecnologia,2024-02-05,Ativo
+CLI-174,Empresa S174,Médio,Construção Civil,2022-02-28,Ativo
+CLI-175,Empresa T175,Pequeno,Tecnologia,2023-08-22,Ativo
+CLI-176,Empresa U176,Médio,Saúde,2023-05-30,Cancelado
+CLI-177,Empresa V177,Médio,Logística,2022-06-11,Ativo
+CLI-178,Empresa W178,Pequeno,Tecnologia,2023-06-05,Ativo
+CLI-179,Empresa X179,Pequeno,Tecnologia,2022-07-10,Ativo
+CLI-180,Empresa Y180,Grande,Tecnologia,2023-09-02,Ativo
+CLI-181,Empresa Z181,Pequeno,Tecnologia,2023-11-23,Ativo
+CLI-182,Empresa A182,Pequeno,Varejo,2023-02-18,Ativo
+CLI-183,Empresa B183,Grande,Tecnologia,2023-08-07,Ativo
+CLI-184,Empresa C184,Grande,Varejo,2023-08-16,Cancelado
+CLI-185,Empresa D185,Pequeno,Logística,2022-02-10,Ativo
+CLI-186,Empresa E186,Pequeno,Logística,2022-03-25,Ativo
+CLI-187,Empresa F187,Pequeno,Saúde,2023-11-05,Ativo
+CLI-188,Empresa G188,Pequeno,Logística,2023-08-02,Ativo
+CLI-189,Empresa H189,Médio,Logística,2022-11-20,Ativo
+CLI-190,Empresa I190,Médio,Construção Civil,2022-07-29,Ativo
+CLI-191,Empresa J191,Pequeno,Financeiro,2024-01-04,Ativo
+CLI-192,Empresa K192,Médio,Construção Civil,2022-09-02,Cancelado
+CLI-193,Empresa L193,Médio,Construção Civil,2023-02-10,Ativo
+CLI-194,Empresa M194,Pequeno,Varejo,2023-11-19,Ativo
+CLI-195,Empresa N195,Médio,Financeiro,2022-11-04,Ativo
+CLI-196,Empresa O196,Grande,Saúde,2022-11-20,Ativo
+CLI-197,Empresa P197,Pequeno,Tecnologia,2022-01-10,Ativo
+CLI-198,Empresa Q198,Pequeno,Saúde,2023-09-29,Cancelado
+CLI-199,Empresa R199,Grande,Logística,2022-04-13,Ativo
+CLI-200,Empresa S200,Médio,Tecnologia,2023-07-05,Ativo
+CLI-201,Empresa T201,Pequeno,Varejo,2023-06-03,Cancelado
+CLI-202,Empresa U202,Médio,Construção Civil,2022-05-16,Ativo
+CLI-203,Empresa V203,Pequeno,Construção Civil,2022-03-12,Cancelado
+CLI-204,Empresa W204,Pequeno,Varejo,2023-01-14,Ativo
+CLI-205,Empresa X205,Grande,Construção Civil,2022-06-11,Ativo
+CLI-206,Empresa Y206,Pequeno,Saúde,2023-07-11,Cancelado
+CLI-207,Empresa Z207,Grande,Financeiro,2022-11-06,Ativo
+CLI-208,Empresa A208,Médio,Logística,2023-11-01,Ativo
+CLI-209,Empresa B209,Pequeno,Logística,2022-01-09,Ativo
+CLI-210,Empresa C210,Médio,Financeiro,2023-07-22,Ativo
+CLI-211,Empresa D211,Médio,Construção Civil,2023-11-11,Ativo
+CLI-212,Empresa E212,Pequeno,Tecnologia,2022-05-18,Ativo
+CLI-213,Empresa F213,Pequeno,Construção Civil,2022-04-29,Ativo
+CLI-214,Empresa G214,Pequeno,Tecnologia,2024-01-31,Cancelado
+CLI-215,Empresa H215,Pequeno,Logística,2022-06-09,Ativo
+CLI-216,Empresa I216,Pequeno,Construção Civil,2022-10-16,Ativo
+CLI-217,Empresa J217,Médio,Logística,2022-08-04,Ativo
+CLI-218,Empresa K218,Pequeno,Financeiro,2022-12-18,Ativo
+CLI-219,Empresa L219,Pequeno,Varejo,2023-12-05,Ativo
+CLI-220,Empresa M220,Médio,Financeiro,2022-09-28,Ativo
+CLI-221,Empresa N221,Pequeno,Logística,2023-05-16,Cancelado
+CLI-222,Empresa O222,Pequeno,Construção Civil,2022-02-22,Ativo
+CLI-223,Empresa P223,Médio,Tecnologia,2023-10-12,Cancelado
+CLI-224,Empresa Q224,Grande,Saúde,2022-10-11,Ativo
+CLI-225,Empresa R225,Pequeno,Tecnologia,2022-01-04,Ativo
+CLI-226,Empresa S226,Médio,Construção Civil,2024-02-29,Ativo
+CLI-227,Empresa T227,Pequeno,Varejo,2023-10-15,Cancelado
+CLI-228,Empresa U228,Pequeno,Construção Civil,2022-06-15,Ativo
+CLI-229,Empresa V229,Pequeno,Financeiro,2023-03-29,Ativo
+CLI-230,Empresa W230,Pequeno,Logística,2023-12-24,Ativo
+CLI-231,Empresa X231,Pequeno,Saúde,2023-07-29,Ativo
+CLI-232,Empresa Y232,Médio,Tecnologia,2022-04-25,Ativo
+CLI-233,Empresa Z233,Grande,Tecnologia,2023-12-09,Ativo
+CLI-234,Empresa A234,Pequeno,Varejo,2023-07-13,Cancelado
+CLI-235,Empresa B235,Pequeno,Tecnologia,2023-01-14,Cancelado
+CLI-236,Empresa C236,Pequeno,Logística,2023-07-20,Cancelado
+CLI-237,Empresa D237,Pequeno,Varejo,2023-03-17,Cancelado
+CLI-238,Empresa E238,Médio,Varejo,2022-02-12,Cancelado
+CLI-239,Empresa F239,Pequeno,Construção Civil,2023-01-09,Ativo
+CLI-240,Empresa G240,Grande,Tecnologia,2023-01-02,Ativo
+CLI-241,Empresa H241,Médio,Varejo,2023-11-30,Ativo
+CLI-242,Empresa I242,Pequeno,Varejo,2023-11-14,Ativo
+CLI-243,Empresa J243,Médio,Tecnologia,2022-12-29,Cancelado
+CLI-244,Empresa K244,Pequeno,Logística,2023-02-21,Ativo
+CLI-245,Empresa L245,Grande,Logística,2024-02-07,Cancelado
+CLI-246,Empresa M246,Pequeno,Varejo,2022-08-31,Ativo
+CLI-247,Empresa N247,Pequeno,Varejo,2022-07-01,Ativo
+CLI-248,Empresa O248,Pequeno,Saúde,2022-01-26,Ativo
+CLI-249,Empresa P249,Médio,Varejo,2024-01-25,Ativo
+CLI-250,Empresa Q250,Grande,Construção Civil,2023-02-26,Cancelado
+CLI-251,Empresa R251,Médio,Financeiro,2024-01-23,Ativo
+CLI-252,Empresa S252,Pequeno,Varejo,2022-10-01,Ativo
+CLI-253,Empresa T253,Médio,Varejo,2023-12-20,Ativo
+CLI-254,Empresa U254,Grande,Tecnologia,2023-01-27,Ativo
+CLI-255,Empresa V255,Grande,Tecnologia,2023-04-27,Ativo
+CLI-256,Empresa W256,Médio,Varejo,2022-07-24,Ativo
+CLI-257,Empresa X257,Grande,Saúde,2022-12-25,Cancelado
+CLI-258,Empresa Y258,Pequeno,Construção Civil,2022-08-22,Ativo
+CLI-259,Empresa Z259,Pequeno,Varejo,2022-01-25,Ativo
+CLI-260,Empresa A260,Grande,Financeiro,2022-07-17,Ativo
+CLI-261,Empresa B261,Médio,Saúde,2022-12-03,Ativo
+CLI-262,Empresa C262,Grande,Construção Civil,2022-03-13,Ativo
+CLI-263,Empresa D263,Médio,Construção Civil,2022-12-26,Ativo
+CLI-264,Empresa E264,Pequeno,Financeiro,2023-06-06,Ativo
+CLI-265,Empresa F265,Pequeno,Saúde,2023-11-27,Cancelado
+CLI-266,Empresa G266,Médio,Logística,2022-12-06,Cancelado
+CLI-267,Empresa H267,Grande,Tecnologia,2022-04-29,Ativo
+CLI-268,Empresa I268,Médio,Construção Civil,2022-07-02,Cancelado
+CLI-269,Empresa J269,Médio,Logística,2022-09-29,Ativo
+CLI-270,Empresa K270,Pequeno,Tecnologia,2022-04-22,Ativo
+CLI-271,Empresa L271,Grande,Logística,2023-03-21,Ativo
+CLI-272,Empresa M272,Pequeno,Construção Civil,2024-01-17,Ativo
+CLI-273,Empresa N273,Médio,Construção Civil,2023-03-23,Ativo
+CLI-274,Empresa O274,Pequeno,Logística,2023-06-08,Ativo
+CLI-275,Empresa P275,Médio,Tecnologia,2023-01-30,Ativo
+CLI-276,Empresa Q276,Médio,Logística,2022-07-14,Cancelado
+CLI-277,Empresa R277,Médio,Construção Civil,2022-02-15,Ativo
+CLI-278,Empresa S278,Grande,Financeiro,2023-03-23,Ativo
+CLI-279,Empresa T279,Pequeno,Tecnologia,2023-06-17,Ativo
+CLI-280,Empresa U280,Médio,Logística,2023-12-05,Ativo
+CLI-281,Empresa V281,Médio,Financeiro,2024-01-30,Ativo
+CLI-282,Empresa W282,Pequeno,Financeiro,2023-11-18,Ativo
+CLI-283,Empresa X283,Pequeno,Varejo,2023-01-08,Ativo
+CLI-284,Empresa Y284,Pequeno,Saúde,2022-03-13,Ativo
+CLI-285,Empresa Z285,Grande,Financeiro,2022-12-05,Ativo
+CLI-286,Empresa A286,Médio,Logística,2022-11-18,Ativo
+CLI-287,Empresa B287,Pequeno,Financeiro,2022-05-08,Ativo
+CLI-288,Empresa C288,Grande,Financeiro,2022-11-04,Cancelado
+CLI-289,Empresa D289,Pequeno,Logística,2022-11-13,Cancelado
+CLI-290,Empresa E290,Pequeno,Financeiro,2023-02-23,Ativo
+CLI-291,Empresa F291,Pequeno,Construção Civil,2023-02-17,Cancelado
+CLI-292,Empresa G292,Pequeno,Financeiro,2022-10-30,Ativo
+CLI-293,Empresa H293,Médio,Logística,2022-05-11,Ativo
+CLI-294,Empresa I294,Pequeno,Varejo,2023-03-07,Ativo
+CLI-295,Empresa J295,Pequeno,Financeiro,2023-01-24,Ativo
+CLI-296,Empresa K296,Pequeno,Financeiro,2024-02-06,Ativo
+CLI-297,Empresa L297,Pequeno,Varejo,2023-09-23,Ativo
+CLI-298,Empresa M298,Grande,Logística,2022-11-05,Ativo
+CLI-299,Empresa N299,Médio,Saúde,2023-07-16,Ativo
+CLI-300,Empresa O300,Pequeno,Tecnologia,2022-11-08,Ativo
+CLI-301,Empresa P301,Pequeno,Construção Civil,2022-08-04,Ativo
+CLI-302,Empresa Q302,Pequeno,Saúde,2023-08-17,Ativo
+CLI-303,Empresa R303,Pequeno,Logística,2023-11-02,Ativo
+CLI-304,Empresa S304,Pequeno,Construção Civil,2023-04-22,Ativo
+CLI-305,Empresa T305,Médio,Saúde,2023-03-29,Ativo
+CLI-306,Empresa U306,Pequeno,Financeiro,2022-08-07,Ativo
+CLI-307,Empresa V307,Médio,Logística,2023-04-30,Ativo
+CLI-308,Empresa W308,Grande,Financeiro,2022-06-23,Cancelado
+CLI-309,Empresa X309,Pequeno,Financeiro,2022-03-28,Ativo
+CLI-310,Empresa Y310,Médio,Construção Civil,2023-06-12,Ativo
+CLI-311,Empresa Z311,Pequeno,Financeiro,2023-10-11,Ativo
+CLI-312,Empresa A312,Pequeno,Logística,2022-12-10,Ativo
+CLI-313,Empresa B313,Médio,Tecnologia,2024-02-09,Ativo
+CLI-314,Empresa C314,Pequeno,Varejo,2023-11-20,Ativo
+CLI-315,Empresa D315,Pequeno,Construção Civil,2022-08-19,Ativo
+CLI-316,Empresa E316,Médio,Varejo,2022-05-31,Cancelado
+CLI-317,Empresa F317,Médio,Tecnologia,2022-02-17,Ativo
+CLI-318,Empresa G318,Pequeno,Varejo,2023-05-02,Ativo
+CLI-319,Empresa H319,Médio,Logística,2024-02-26,Ativo
+CLI-320,Empresa I320,Pequeno,Tecnologia,2023-04-12,Ativo
+CLI-321,Empresa J321,Pequeno,Saúde,2023-10-07,Ativo
+CLI-322,Empresa K322,Pequeno,Logística,2022-07-19,Ativo
+CLI-323,Empresa L323,Pequeno,Financeiro,2023-12-15,Cancelado
+CLI-324,Empresa M324,Médio,Saúde,2023-05-22,Ativo
+CLI-325,Empresa N325,Médio,Saúde,2022-09-07,Ativo
+CLI-326,Empresa O326,Pequeno,Varejo,2023-11-03,Ativo
+CLI-327,Empresa P327,Médio,Financeiro,2022-01-06,Ativo
+CLI-328,Empresa Q328,Pequeno,Tecnologia,2024-03-08,Ativo
+CLI-329,Empresa R329,Pequeno,Saúde,2022-08-13,Ativo
+CLI-330,Empresa S330,Médio,Varejo,2023-12-14,Ativo
+CLI-331,Empresa T331,Pequeno,Logística,2023-04-21,Cancelado
+CLI-332,Empresa U332,Médio,Tecnologia,2023-07-25,Ativo
+CLI-333,Empresa V333,Pequeno,Varejo,2022-05-05,Ativo
+CLI-334,Empresa W334,Pequeno,Saúde,2022-05-17,Ativo
+CLI-335,Empresa X335,Pequeno,Saúde,2023-11-15,Ativo
+CLI-336,Empresa Y336,Pequeno,Logística,2023-07-27,Cancelado
+CLI-337,Empresa Z337,Pequeno,Logística,2022-11-21,Ativo
+CLI-338,Empresa A338,Pequeno,Saúde,2023-09-20,Cancelado
+CLI-339,Empresa B339,Pequeno,Financeiro,2023-06-01,Ativo
+CLI-340,Empresa C340,Grande,Saúde,2023-07-16,Cancelado
+CLI-341,Empresa D341,Médio,Saúde,2022-06-12,Ativo
+CLI-342,Empresa E342,Pequeno,Financeiro,2023-05-02,Ativo
+CLI-343,Empresa F343,Grande,Saúde,2022-09-23,Ativo
+CLI-344,Empresa G344,Médio,Varejo,2023-10-15,Ativo
+CLI-345,Empresa H345,Médio,Construção Civil,2024-02-24,Ativo
+CLI-346,Empresa I346,Pequeno,Logística,2023-05-12,Ativo
+CLI-347,Empresa J347,Médio,Financeiro,2022-09-02,Ativo
+CLI-348,Empresa K348,Pequeno,Construção Civil,2023-03-27,Ativo
+CLI-349,Empresa L349,Pequeno,Tecnologia,2024-01-01,Ativo
+CLI-350,Empresa M350,Pequeno,Construção Civil,2022-08-29,Ativo
+CLI-351,Empresa N351,Médio,Construção Civil,2022-12-10,Ativo
+CLI-352,Empresa O352,Pequeno,Construção Civil,2023-07-08,Ativo
+CLI-353,Empresa P353,Pequeno,Tecnologia,2022-05-22,Cancelado
+CLI-354,Empresa Q354,Pequeno,Varejo,2022-08-25,Ativo
+CLI-355,Empresa R355,Pequeno,Saúde,2023-12-12,Ativo
+CLI-356,Empresa S356,Médio,Varejo,2023-12-25,Ativo
+CLI-357,Empresa T357,Pequeno,Varejo,2022-03-07,Ativo
+CLI-358,Empresa U358,Pequeno,Saúde,2023-02-22,Cancelado
+CLI-359,Empresa V359,Médio,Construção Civil,2023-07-10,Cancelado
+CLI-360,Empresa W360,Pequeno,Saúde,2023-03-02,Ativo
+CLI-361,Empresa X361,Grande,Tecnologia,2022-07-31,Ativo
+CLI-362,Empresa Y362,Pequeno,Saúde,2023-02-03,Ativo
+CLI-363,Empresa Z363,Médio,Logística,2023-12-14,Ativo
+CLI-364,Empresa A364,Pequeno,Tecnologia,2024-02-23,Ativo
+CLI-365,Empresa B365,Pequeno,Logística,2023-01-25,Ativo
+CLI-366,Empresa C366,Pequeno,Saúde,2022-01-07,Ativo
+CLI-367,Empresa D367,Médio,Construção Civil,2022-11-02,Ativo
+CLI-368,Empresa E368,Pequeno,Saúde,2023-03-06,Cancelado
+CLI-369,Empresa F369,Pequeno,Logística,2024-02-05,Ativo
+CLI-370,Empresa G370,Pequeno,Financeiro,2023-07-14,Ativo
+CLI-371,Empresa H371,Pequeno,Logística,2022-08-14,Ativo
+CLI-372,Empresa I372,Médio,Saúde,2022-08-13,Ativo
+CLI-373,Empresa J373,Pequeno,Construção Civil,2023-03-23,Cancelado
+CLI-374,Empresa K374,Pequeno,Saúde,2022-01-30,Ativo
+CLI-375,Empresa L375,Grande,Saúde,2022-12-11,Ativo
+CLI-376,Empresa M376,Pequeno,Financeiro,2023-11-27,Cancelado
+CLI-377,Empresa N377,Médio,Saúde,2024-01-12,Ativo
+CLI-378,Empresa O378,Pequeno,Varejo,2023-04-24,Ativo
+CLI-379,Empresa P379,Médio,Varejo,2023-09-30,Ativo
+CLI-380,Empresa Q380,Grande,Logística,2022-01-28,Ativo
+CLI-381,Empresa R381,Pequeno,Saúde,2023-08-30,Ativo
+CLI-382,Empresa S382,Pequeno,Logística,2023-11-10,Ativo
+CLI-383,Empresa T383,Pequeno,Tecnologia,2022-03-27,Ativo
+CLI-384,Empresa U384,Médio,Financeiro,2023-03-15,Cancelado
+CLI-385,Empresa V385,Pequeno,Varejo,2023-04-18,Ativo
+CLI-386,Empresa W386,Pequeno,Varejo,2022-02-21,Ativo
+CLI-387,Empresa X387,Pequeno,Construção Civil,2023-01-24,Ativo
+CLI-388,Empresa Y388,Médio,Construção Civil,2022-08-05,Ativo
+CLI-389,Empresa Z389,Pequeno,Saúde,2022-12-01,Ativo
+CLI-390,Empresa A390,Médio,Construção Civil,2024-02-19,Ativo
+CLI-391,Empresa B391,Médio,Saúde,2022-10-12,Ativo
+CLI-392,Empresa C392,Pequeno,Saúde,2022-09-16,Ativo
+CLI-393,Empresa D393,Pequeno,Tecnologia,2023-04-27,Cancelado
+CLI-394,Empresa E394,Médio,Tecnologia,2024-02-07,Ativo
+CLI-395,Empresa F395,Pequeno,Logística,2022-02-23,Cancelado
+CLI-396,Empresa G396,Pequeno,Construção Civil,2022-08-18,Ativo
+CLI-397,Empresa H397,Médio,Financeiro,2022-03-12,Ativo
+CLI-398,Empresa I398,Pequeno,Financeiro,2022-02-11,Cancelado
+CLI-399,Empresa J399,Grande,Tecnologia,2022-09-11,Ativo
+CLI-400,Empresa K400,Médio,Varejo,2022-01-21,Cancelado
+CLI-401,Empresa L401,Médio,Logística,2022-06-06,Ativo
+CLI-402,Empresa M402,Médio,Varejo,2022-05-10,Ativo
+CLI-403,Empresa N403,Pequeno,Saúde,2023-11-17,Ativo
+CLI-404,Empresa O404,Grande,Tecnologia,2023-08-01,Cancelado
+CLI-405,Empresa P405,Pequeno,Varejo,2023-04-22,Ativo
+CLI-406,Empresa Q406,Grande,Financeiro,2022-09-20,Ativo
+CLI-407,Empresa R407,Pequeno,Construção Civil,2022-06-21,Cancelado
+CLI-408,Empresa S408,Grande,Logística,2023-09-14,Ativo
+CLI-409,Empresa T409,Médio,Financeiro,2024-01-06,Ativo
+CLI-410,Empresa U410,Pequeno,Tecnologia,2024-03-07,Ativo
+CLI-411,Empresa V411,Médio,Varejo,2022-11-15,Ativo
+CLI-412,Empresa W412,Pequeno,Tecnologia,2023-08-16,Ativo
+CLI-413,Empresa X413,Médio,Tecnologia,2022-11-16,Cancelado
+CLI-414,Empresa Y414,Pequeno,Logística,2023-11-25,Ativo
+CLI-415,Empresa Z415,Médio,Saúde,2023-02-11,Ativo
+CLI-416,Empresa A416,Pequeno,Financeiro,2022-07-23,Ativo
+CLI-417,Empresa B417,Pequeno,Tecnologia,2023-08-30,Ativo
+CLI-418,Empresa C418,Pequeno,Financeiro,2023-10-05,Ativo
+CLI-419,Empresa D419,Grande,Varejo,2022-04-15,Ativo
+CLI-420,Empresa E420,Médio,Financeiro,2024-03-02,Ativo
+CLI-421,Empresa F421,Pequeno,Construção Civil,2023-12-02,Ativo
+CLI-422,Empresa G422,Pequeno,Logística,2022-05-04,Cancelado
+CLI-423,Empresa H423,Pequeno,Logística,2022-02-12,Ativo
+CLI-424,Empresa I424,Pequeno,Construção Civil,2023-06-30,Cancelado
+CLI-425,Empresa J425,Médio,Saúde,2023-11-09,Ativo
+CLI-426,Empresa K426,Pequeno,Construção Civil,2022-03-12,Ativo
+CLI-427,Empresa L427,Pequeno,Logística,2023-10-26,Cancelado
+CLI-428,Empresa M428,Pequeno,Construção Civil,2022-01-13,Ativo
+CLI-429,Empresa N429,Pequeno,Saúde,2023-05-17,Ativo
+CLI-430,Empresa O430,Médio,Tecnologia,2023-03-20,Ativo
+CLI-431,Empresa P431,Médio,Construção Civil,2023-10-13,Ativo
+CLI-432,Empresa Q432,Médio,Saúde,2023-12-26,Ativo
+CLI-433,Empresa R433,Pequeno,Varejo,2023-03-22,Ativo
+CLI-434,Empresa S434,Pequeno,Varejo,2024-01-22,Ativo
+CLI-435,Empresa T435,Grande,Logística,2023-10-29,Cancelado
+CLI-436,Empresa U436,Pequeno,Construção Civil,2023-09-23,Ativo
+CLI-437,Empresa V437,Médio,Logística,2024-03-04,Ativo
+CLI-438,Empresa W438,Pequeno,Saúde,2023-04-22,Ativo
+CLI-439,Empresa X439,Médio,Saúde,2024-01-19,Ativo
+CLI-440,Empresa Y440,Pequeno,Logística,2022-10-02,Ativo
+CLI-441,Empresa Z441,Pequeno,Construção Civil,2022-09-09,Ativo
+CLI-442,Empresa A442,Pequeno,Tecnologia,2022-10-13,Ativo
+CLI-443,Empresa B443,Médio,Saúde,2022-09-07,Ativo
+CLI-444,Empresa C444,Médio,Saúde,2023-08-07,Ativo
+CLI-445,Empresa D445,Pequeno,Logística,2023-11-16,Ativo
+CLI-446,Empresa E446,Médio,Saúde,2022-12-11,Cancelado
+CLI-447,Empresa F447,Médio,Tecnologia,2023-05-22,Ativo
+CLI-448,Empresa G448,Médio,Construção Civil,2022-07-06,Ativo
+CLI-449,Empresa H449,Pequeno,Saúde,2022-08-06,Cancelado
+CLI-450,Empresa I450,Pequeno,Construção Civil,2022-09-22,Ativo
+CLI-451,Empresa J451,Pequeno,Construção Civil,2022-10-14,Ativo
+CLI-452,Empresa K452,Pequeno,Logística,2023-12-20,Ativo
+CLI-453,Empresa L453,Pequeno,Construção Civil,2023-07-24,Cancelado
+CLI-454,Empresa M454,Médio,Tecnologia,2023-06-14,Ativo
+CLI-455,Empresa N455,Pequeno,Varejo,2022-03-29,Ativo
+CLI-456,Empresa O456,Médio,Varejo,2024-01-08,Ativo
+CLI-457,Empresa P457,Médio,Saúde,2023-05-16,Ativo
+CLI-458,Empresa Q458,Médio,Logística,2024-02-16,Ativo
+CLI-459,Empresa R459,Pequeno,Varejo,2023-12-09,Cancelado
+CLI-460,Empresa S460,Médio,Saúde,2023-10-24,Ativo
+CLI-461,Empresa T461,Grande,Financeiro,2023-05-18,Ativo
+CLI-462,Empresa U462,Grande,Saúde,2022-01-18,Ativo
+CLI-463,Empresa V463,Pequeno,Tecnologia,2022-10-29,Ativo
+CLI-464,Empresa W464,Pequeno,Varejo,2023-02-19,Ativo
+CLI-465,Empresa X465,Médio,Financeiro,2022-09-07,Ativo
+CLI-466,Empresa Y466,Pequeno,Construção Civil,2023-11-11,Ativo
+CLI-467,Empresa Z467,Grande,Logística,2023-01-13,Ativo
+CLI-468,Empresa A468,Pequeno,Saúde,2023-07-21,Ativo
+CLI-469,Empresa B469,Pequeno,Logística,2022-12-19,Cancelado
+CLI-470,Empresa C470,Pequeno,Saúde,2024-02-03,Ativo
+CLI-471,Empresa D471,Pequeno,Logística,2022-12-05,Ativo
+CLI-472,Empresa E472,Médio,Construção Civil,2023-12-21,Ativo
+CLI-473,Empresa F473,Pequeno,Saúde,2022-10-05,Ativo
+CLI-474,Empresa G474,Pequeno,Construção Civil,2022-09-15,Cancelado
+CLI-475,Empresa H475,Grande,Varejo,2022-05-04,Ativo
+CLI-476,Empresa I476,Médio,Financeiro,2022-07-17,Ativo
+CLI-477,Empresa J477,Pequeno,Construção Civil,2022-05-03,Cancelado
+CLI-478,Empresa K478,Pequeno,Financeiro,2023-07-03,Ativo
+CLI-479,Empresa L479,Médio,Financeiro,2022-07-09,Ativo
+CLI-480,Empresa M480,Pequeno,Varejo,2022-08-10,Ativo
+CLI-481,Empresa N481,Pequeno,Financeiro,2023-05-11,Ativo
+CLI-482,Empresa O482,Pequeno,Construção Civil,2024-01-12,Ativo
+CLI-483,Empresa P483,Pequeno,Logística,2024-02-18,Ativo
+CLI-484,Empresa Q484,Médio,Logística,2023-09-04,Ativo
+CLI-485,Empresa R485,Médio,Construção Civil,2022-04-13,Ativo
+CLI-486,Empresa S486,Médio,Varejo,2022-10-31,Cancelado
+CLI-487,Empresa T487,Médio,Varejo,2023-01-05,Ativo
+CLI-488,Empresa U488,Pequeno,Varejo,2022-11-06,Ativo
+CLI-489,Empresa V489,Médio,Tecnologia,2023-12-27,Ativo
+CLI-490,Empresa W490,Pequeno,Logística,2022-05-10,Ativo
+CLI-491,Empresa X491,Pequeno,Construção Civil,2022-02-16,Ativo
+CLI-492,Empresa Y492,Pequeno,Tecnologia,2023-07-21,Ativo
+CLI-493,Empresa Z493,Médio,Construção Civil,2023-12-16,Ativo
+CLI-494,Empresa A494,Médio,Varejo,2023-10-16,Ativo
+CLI-495,Empresa B495,Pequeno,Saúde,2022-04-16,Ativo
+CLI-496,Empresa C496,Médio,Tecnologia,2023-08-11,Ativo
+CLI-497,Empresa D497,Pequeno,Construção Civil,2023-04-26,Ativo
+CLI-498,Empresa E498,Pequeno,Saúde,2023-03-28,Ativo
+CLI-499,Empresa F499,Grande,Construção Civil,2022-07-08,Ativo
+CLI-500,Empresa G500,Grande,Tecnologia,2022-09-16,Ativo
+CLI-501,Empresa H501,Pequeno,Saúde,2022-04-27,Ativo
+CLI-502,Empresa I502,Grande,Tecnologia,2023-02-15,Ativo
+CLI-503,Empresa J503,Médio,Saúde,2022-03-17,Ativo
+CLI-504,Empresa K504,Médio,Logística,2023-10-07,Ativo
+CLI-505,Empresa L505,Pequeno,Financeiro,2022-02-24,Ativo
+CLI-506,Empresa M506,Pequeno,Varejo,2022-06-02,Cancelado
+CLI-507,Empresa N507,Grande,Logística,2022-11-08,Ativo
+CLI-508,Empresa O508,Médio,Tecnologia,2022-09-12,Cancelado
+CLI-509,Empresa P509,Pequeno,Tecnologia,2023-07-26,Ativo
+CLI-510,Empresa Q510,Grande,Saúde,2023-09-13,Ativo
+CLI-511,Empresa R511,Médio,Logística,2023-09-26,Ativo
+CLI-512,Empresa S512,Grande,Varejo,2024-03-05,Cancelado
+CLI-513,Empresa T513,Grande,Logística,2023-01-25,Ativo
+CLI-514,Empresa U514,Grande,Saúde,2023-03-30,Ativo
+CLI-515,Empresa V515,Pequeno,Construção Civil,2023-08-26,Ativo
+CLI-516,Empresa W516,Pequeno,Saúde,2022-11-09,Ativo
+CLI-517,Empresa X517,Pequeno,Logística,2023-09-28,Ativo
+CLI-518,Empresa Y518,Pequeno,Tecnologia,2023-09-17,Ativo
+CLI-519,Empresa Z519,Pequeno,Financeiro,2022-04-12,Ativo
+CLI-520,Empresa A520,Pequeno,Varejo,2023-10-03,Ativo
+CLI-521,Empresa B521,Médio,Varejo,2022-09-28,Ativo
+CLI-522,Empresa C522,Pequeno,Financeiro,2022-03-25,Ativo
+CLI-523,Empresa D523,Grande,Varejo,2022-09-03,Ativo
+CLI-524,Empresa E524,Pequeno,Varejo,2023-07-20,Ativo
+CLI-525,Empresa F525,Grande,Tecnologia,2022-06-10,Ativo
+CLI-526,Empresa G526,Grande,Tecnologia,2023-02-23,Ativo
+CLI-527,Empresa H527,Grande,Saúde,2023-12-07,Ativo
+CLI-528,Empresa I528,Grande,Logística,2023-04-27,Ativo
+CLI-529,Empresa J529,Médio,Construção Civil,2022-02-03,Ativo
+CLI-530,Empresa K530,Pequeno,Varejo,2022-10-23,Ativo
+CLI-531,Empresa L531,Grande,Financeiro,2022-10-17,Cancelado
+CLI-532,Empresa M532,Médio,Financeiro,2023-04-10,Ativo
+CLI-533,Empresa N533,Pequeno,Tecnologia,2023-12-05,Ativo
+CLI-534,Empresa O534,Pequeno,Varejo,2022-09-28,Ativo
+CLI-535,Empresa P535,Pequeno,Financeiro,2023-08-27,Ativo
+CLI-536,Empresa Q536,Pequeno,Financeiro,2022-07-22,Ativo
+CLI-537,Empresa R537,Pequeno,Saúde,2022-04-28,Ativo
+CLI-538,Empresa S538,Grande,Logística,2022-08-19,Ativo
+CLI-539,Empresa T539,Pequeno,Financeiro,2022-06-02,Ativo
+CLI-540,Empresa U540,Pequeno,Construção Civil,2022-05-26,Cancelado
+CLI-541,Empresa V541,Médio,Tecnologia,2022-03-03,Ativo
+CLI-542,Empresa W542,Pequeno,Varejo,2022-11-11,Cancelado
+CLI-543,Empresa X543,Grande,Logística,2024-02-06,Ativo
+CLI-544,Empresa Y544,Médio,Logística,2022-10-23,Ativo
+CLI-545,Empresa Z545,Grande,Saúde,2022-05-08,Ativo
+CLI-546,Empresa A546,Grande,Saúde,2023-12-07,Ativo
+CLI-547,Empresa B547,Médio,Construção Civil,2023-12-18,Ativo
+CLI-548,Empresa C548,Pequeno,Saúde,2022-10-06,Ativo
+CLI-549,Empresa D549,Pequeno,Logística,2023-07-07,Ativo
+CLI-550,Empresa E550,Médio,Saúde,2023-03-25,Ativo
+CLI-551,Empresa F551,Pequeno,Tecnologia,2023-09-05,Cancelado
+CLI-552,Empresa G552,Grande,Tecnologia,2023-03-19,Cancelado
+CLI-553,Empresa H553,Grande,Financeiro,2022-11-27,Ativo
+CLI-554,Empresa I554,Pequeno,Logística,2022-09-14,Ativo
+CLI-555,Empresa J555,Médio,Tecnologia,2022-04-04,Ativo
+CLI-556,Empresa K556,Médio,Varejo,2023-11-22,Ativo
+CLI-557,Empresa L557,Pequeno,Logística,2023-08-25,Ativo
+CLI-558,Empresa M558,Médio,Tecnologia,2024-02-23,Ativo
+CLI-559,Empresa N559,Pequeno,Financeiro,2022-10-03,Cancelado
+CLI-560,Empresa O560,Pequeno,Logística,2022-02-11,Ativo
+CLI-561,Empresa P561,Grande,Varejo,2023-04-27,Cancelado
+CLI-562,Empresa Q562,Grande,Logística,2023-10-30,Ativo
+CLI-563,Empresa R563,Médio,Saúde,2022-10-12,Ativo
+CLI-564,Empresa S564,Pequeno,Varejo,2023-08-23,Ativo
+CLI-565,Empresa T565,Pequeno,Saúde,2023-10-13,Ativo
+CLI-566,Empresa U566,Médio,Saúde,2022-04-04,Ativo
+CLI-567,Empresa V567,Pequeno,Saúde,2022-12-23,Ativo
+CLI-568,Empresa W568,Médio,Saúde,2022-12-08,Ativo
+CLI-569,Empresa X569,Grande,Construção Civil,2023-11-18,Ativo
+CLI-570,Empresa Y570,Pequeno,Tecnologia,2022-06-14,Ativo
+CLI-571,Empresa Z571,Médio,Construção Civil,2023-02-26,Ativo
+CLI-572,Empresa A572,Médio,Financeiro,2023-05-23,Ativo
+CLI-573,Empresa B573,Pequeno,Construção Civil,2023-11-10,Cancelado
+CLI-574,Empresa C574,Médio,Saúde,2024-02-18,Ativo
+CLI-575,Empresa D575,Grande,Logística,2022-02-07,Cancelado
+CLI-576,Empresa E576,Médio,Saúde,2022-04-01,Ativo
+CLI-577,Empresa F577,Médio,Construção Civil,2022-09-16,Ativo
+CLI-578,Empresa G578,Médio,Construção Civil,2022-04-29,Ativo
+CLI-579,Empresa H579,Pequeno,Saúde,2023-06-11,Cancelado
+CLI-580,Empresa I580,Grande,Tecnologia,2023-11-05,Ativo
+CLI-581,Empresa J581,Médio,Logística,2023-04-19,Ativo
+CLI-582,Empresa K582,Pequeno,Saúde,2022-02-25,Ativo
+CLI-583,Empresa L583,Pequeno,Varejo,2023-06-15,Ativo
+CLI-584,Empresa M584,Médio,Construção Civil,2023-09-30,Ativo
+CLI-585,Empresa N585,Pequeno,Saúde,2023-10-03,Ativo
+CLI-586,Empresa O586,Médio,Saúde,2024-02-18,Cancelado
+CLI-587,Empresa P587,Médio,Tecnologia,2022-07-28,Ativo
+CLI-588,Empresa Q588,Médio,Construção Civil,2023-07-17,Ativo
+CLI-589,Empresa R589,Médio,Varejo,2022-10-22,Ativo
+CLI-590,Empresa S590,Médio,Saúde,2023-12-17,Ativo
+CLI-591,Empresa T591,Grande,Saúde,2022-05-05,Ativo
+CLI-592,Empresa U592,Médio,Tecnologia,2023-10-08,Cancelado
+CLI-593,Empresa V593,Pequeno,Logística,2022-09-03,Cancelado
+CLI-594,Empresa W594,Médio,Financeiro,2022-06-12,Ativo
+CLI-595,Empresa X595,Pequeno,Construção Civil,2023-07-19,Ativo
+CLI-596,Empresa Y596,Pequeno,Tecnologia,2023-07-20,Ativo
+CLI-597,Empresa Z597,Pequeno,Saúde,2022-04-06,Ativo
+CLI-598,Empresa A598,Pequeno,Varejo,2022-04-27,Cancelado
+CLI-599,Empresa B599,Grande,Saúde,2022-05-01,Cancelado
+CLI-600,Empresa C600,Médio,Financeiro,2022-06-07,Ativo
+CLI-601,Empresa D601,Médio,Saúde,2024-01-04,Ativo
+CLI-602,Empresa E602,Pequeno,Construção Civil,2023-06-06,Ativo
+CLI-603,Empresa F603,Pequeno,Financeiro,2022-10-07,Ativo
+CLI-604,Empresa G604,Médio,Saúde,2023-05-10,Ativo
+CLI-605,Empresa H605,Pequeno,Saúde,2022-09-07,Cancelado
+CLI-606,Empresa I606,Pequeno,Saúde,2023-07-19,Ativo
+CLI-607,Empresa J607,Pequeno,Varejo,2023-01-28,Ativo
+CLI-608,Empresa K608,Médio,Varejo,2023-09-06,Ativo
+CLI-609,Empresa L609,Pequeno,Logística,2024-02-04,Ativo
+CLI-610,Empresa M610,Médio,Varejo,2022-03-13,Ativo
+CLI-611,Empresa N611,Grande,Construção Civil,2024-03-02,Ativo
+CLI-612,Empresa O612,Pequeno,Saúde,2022-12-15,Cancelado
+CLI-613,Empresa P613,Pequeno,Logística,2022-10-01,Ativo
+CLI-614,Empresa Q614,Pequeno,Tecnologia,2022-10-17,Ativo
+CLI-615,Empresa R615,Grande,Financeiro,2022-11-02,Ativo
+CLI-616,Empresa S616,Grande,Logística,2023-08-17,Ativo
+CLI-617,Empresa T617,Pequeno,Financeiro,2023-05-17,Ativo
+CLI-618,Empresa U618,Médio,Varejo,2023-04-03,Ativo
+CLI-619,Empresa V619,Grande,Logística,2023-05-11,Ativo
+CLI-620,Empresa W620,Grande,Construção Civil,2022-12-07,Ativo
+CLI-621,Empresa X621,Grande,Logística,2024-02-21,Ativo
+CLI-622,Empresa Y622,Médio,Logística,2023-01-22,Ativo
+CLI-623,Empresa Z623,Médio,Saúde,2022-11-26,Ativo
+CLI-624,Empresa A624,Pequeno,Varejo,2023-12-16,Ativo
+CLI-625,Empresa B625,Grande,Varejo,2023-08-09,Ativo
+CLI-626,Empresa C626,Médio,Saúde,2022-08-28,Ativo
+CLI-627,Empresa D627,Pequeno,Saúde,2022-02-14,Ativo
+CLI-628,Empresa E628,Médio,Construção Civil,2024-02-02,Ativo
+CLI-629,Empresa F629,Pequeno,Saúde,2023-12-24,Ativo
+CLI-630,Empresa G630,Pequeno,Saúde,2023-01-31,Ativo
+CLI-631,Empresa H631,Pequeno,Financeiro,2023-10-30,Ativo
+CLI-632,Empresa I632,Pequeno,Varejo,2023-05-23,Ativo
+CLI-633,Empresa J633,Pequeno,Tecnologia,2022-05-10,Ativo
+CLI-634,Empresa K634,Pequeno,Logística,2023-08-28,Ativo
+CLI-635,Empresa L635,Médio,Construção Civil,2022-04-13,Ativo
+CLI-636,Empresa M636,Médio,Saúde,2022-04-13,Cancelado
+CLI-637,Empresa N637,Médio,Logística,2023-04-13,Ativo
+CLI-638,Empresa O638,Pequeno,Tecnologia,2024-01-10,Ativo
+CLI-639,Empresa P639,Pequeno,Varejo,2023-02-24,Cancelado
+CLI-640,Empresa Q640,Pequeno,Financeiro,2022-06-08,Ativo
+CLI-641,Empresa R641,Médio,Tecnologia,2023-04-26,Ativo
+CLI-642,Empresa S642,Médio,Construção Civil,2022-12-13,Ativo
+CLI-643,Empresa T643,Pequeno,Logística,2023-12-11,Ativo
+CLI-644,Empresa U644,Pequeno,Saúde,2023-10-28,Ativo
+CLI-645,Empresa V645,Pequeno,Tecnologia,2022-12-03,Ativo
+CLI-646,Empresa W646,Pequeno,Financeiro,2023-07-01,Ativo
+CLI-647,Empresa X647,Médio,Saúde,2022-11-21,Ativo
+CLI-648,Empresa Y648,Médio,Financeiro,2024-01-06,Ativo
+CLI-649,Empresa Z649,Pequeno,Saúde,2023-07-09,Ativo
+CLI-650,Empresa A650,Médio,Tecnologia,2023-09-25,Ativo
+CLI-651,Empresa B651,Pequeno,Tecnologia,2022-08-29,Cancelado
+CLI-652,Empresa C652,Pequeno,Financeiro,2023-12-02,Ativo
+CLI-653,Empresa D653,Médio,Construção Civil,2022-08-21,Cancelado
+CLI-654,Empresa E654,Médio,Financeiro,2022-04-03,Ativo
+CLI-655,Empresa F655,Pequeno,Saúde,2022-04-11,Ativo
+CLI-656,Empresa G656,Pequeno,Financeiro,2023-12-22,Cancelado
+CLI-657,Empresa H657,Médio,Tecnologia,2023-03-31,Ativo
+CLI-658,Empresa I658,Pequeno,Varejo,2023-12-12,Ativo
+CLI-659,Empresa J659,Médio,Construção Civil,2022-01-30,Ativo
+CLI-660,Empresa K660,Pequeno,Tecnologia,2022-11-29,Ativo
+CLI-661,Empresa L661,Pequeno,Tecnologia,2022-10-28,Ativo
+CLI-662,Empresa M662,Grande,Construção Civil,2023-01-19,Ativo
+CLI-663,Empresa N663,Grande,Saúde,2022-05-30,Ativo
+CLI-664,Empresa O664,Pequeno,Varejo,2023-06-28,Ativo
+CLI-665,Empresa P665,Médio,Saúde,2023-08-03,Ativo
+CLI-666,Empresa Q666,Médio,Financeiro,2022-07-04,Ativo
+CLI-667,Empresa R667,Pequeno,Varejo,2022-06-29,Cancelado
+CLI-668,Empresa S668,Grande,Tecnologia,2023-09-17,Ativo
+CLI-669,Empresa T669,Pequeno,Saúde,2023-09-27,Ativo
+CLI-670,Empresa U670,Pequeno,Financeiro,2022-09-04,Ativo
+CLI-671,Empresa V671,Pequeno,Saúde,2023-08-21,Ativo
+CLI-672,Empresa W672,Grande,Varejo,2022-08-26,Ativo
+CLI-673,Empresa X673,Médio,Saúde,2023-10-16,Ativo
+CLI-674,Empresa Y674,Pequeno,Construção Civil,2023-04-16,Ativo
+CLI-675,Empresa Z675,Grande,Construção Civil,2023-11-14,Ativo
+CLI-676,Empresa A676,Grande,Tecnologia,2023-04-22,Ativo
+CLI-677,Empresa B677,Pequeno,Construção Civil,2023-11-25,Ativo
+CLI-678,Empresa C678,Pequeno,Logística,2022-06-11,Cancelado
+CLI-679,Empresa D679,Grande,Tecnologia,2023-03-29,Ativo
+CLI-680,Empresa E680,Pequeno,Construção Civil,2023-08-25,Ativo
+CLI-681,Empresa F681,Grande,Construção Civil,2023-10-17,Ativo
+CLI-682,Empresa G682,Médio,Saúde,2023-12-08,Ativo
+CLI-683,Empresa H683,Médio,Construção Civil,2023-04-13,Ativo
+CLI-684,Empresa I684,Médio,Construção Civil,2022-07-23,Cancelado
+CLI-685,Empresa J685,Pequeno,Saúde,2023-05-10,Ativo
+CLI-686,Empresa K686,Grande,Tecnologia,2022-08-31,Ativo
+CLI-687,Empresa L687,Grande,Saúde,2023-08-09,Ativo
+CLI-688,Empresa M688,Pequeno,Construção Civil,2023-08-12,Cancelado
+CLI-689,Empresa N689,Pequeno,Construção Civil,2023-12-18,Ativo
+CLI-690,Empresa O690,Pequeno,Construção Civil,2022-01-23,Ativo
+CLI-691,Empresa P691,Pequeno,Financeiro,2023-02-10,Ativo
+CLI-692,Empresa Q692,Grande,Construção Civil,2022-01-09,Ativo
+CLI-693,Empresa R693,Médio,Logística,2023-12-04,Ativo
+CLI-694,Empresa S694,Médio,Financeiro,2022-02-20,Ativo
+CLI-695,Empresa T695,Grande,Logística,2024-02-03,Ativo
+CLI-696,Empresa U696,Pequeno,Saúde,2022-10-21,Ativo
+CLI-697,Empresa V697,Pequeno,Varejo,2023-09-14,Ativo
+CLI-698,Empresa W698,Pequeno,Construção Civil,2022-08-13,Ativo
+CLI-699,Empresa X699,Pequeno,Financeiro,2022-07-14,Ativo
+CLI-700,Empresa Y700,Médio,Logística,2022-09-14,Ativo
+CLI-701,Empresa Z701,Pequeno,Financeiro,2024-02-13,Ativo
+CLI-702,Empresa A702,Pequeno,Financeiro,2024-02-25,Ativo
+CLI-703,Empresa B703,Médio,Financeiro,2023-11-29,Ativo
+CLI-704,Empresa C704,Médio,Varejo,2023-10-06,Ativo
+CLI-705,Empresa D705,Médio,Tecnologia,2023-10-05,Cancelado
+CLI-706,Empresa E706,Pequeno,Financeiro,2022-02-10,Ativo
+CLI-707,Empresa F707,Pequeno,Construção Civil,2023-03-28,Ativo
+CLI-708,Empresa G708,Médio,Tecnologia,2023-08-17,Cancelado
+CLI-709,Empresa H709,Pequeno,Construção Civil,2024-01-20,Ativo
+CLI-710,Empresa I710,Pequeno,Varejo,2022-04-03,Cancelado
+CLI-711,Empresa J711,Pequeno,Construção Civil,2022-12-01,Ativo
+CLI-712,Empresa K712,Pequeno,Financeiro,2023-03-02,Ativo
+CLI-713,Empresa L713,Grande,Varejo,2022-07-25,Cancelado
+CLI-714,Empresa M714,Pequeno,Varejo,2023-07-07,Cancelado
+CLI-715,Empresa N715,Médio,Construção Civil,2023-06-28,Cancelado
+CLI-716,Empresa O716,Pequeno,Logística,2022-10-07,Ativo
+CLI-717,Empresa P717,Pequeno,Varejo,2022-09-21,Ativo
+CLI-718,Empresa Q718,Pequeno,Saúde,2022-10-30,Ativo
+CLI-719,Empresa R719,Pequeno,Financeiro,2022-12-13,Ativo
+CLI-720,Empresa S720,Pequeno,Tecnologia,2023-04-25,Ativo
+CLI-721,Empresa T721,Grande,Tecnologia,2022-05-25,Ativo
+CLI-722,Empresa U722,Médio,Varejo,2023-11-24,Ativo
+CLI-723,Empresa V723,Grande,Financeiro,2023-11-22,Ativo
+CLI-724,Empresa W724,Médio,Saúde,2023-07-25,Ativo
+CLI-725,Empresa X725,Grande,Construção Civil,2022-04-03,Ativo
+CLI-726,Empresa Y726,Pequeno,Saúde,2022-01-15,Ativo
+CLI-727,Empresa Z727,Grande,Construção Civil,2023-07-04,Ativo
+CLI-728,Empresa A728,Pequeno,Tecnologia,2023-04-11,Cancelado
+CLI-729,Empresa B729,Médio,Construção Civil,2023-11-20,Ativo
+CLI-730,Empresa C730,Pequeno,Financeiro,2023-11-20,Ativo
+CLI-731,Empresa D731,Pequeno,Construção Civil,2023-08-22,Ativo
+CLI-732,Empresa E732,Pequeno,Saúde,2023-10-16,Ativo
+CLI-733,Empresa F733,Grande,Construção Civil,2022-04-21,Ativo
+CLI-734,Empresa G734,Grande,Financeiro,2022-08-28,Ativo
+CLI-735,Empresa H735,Grande,Saúde,2022-01-26,Ativo
+CLI-736,Empresa I736,Médio,Logística,2023-07-29,Ativo
+CLI-737,Empresa J737,Grande,Construção Civil,2023-09-17,Ativo
+CLI-738,Empresa K738,Pequeno,Varejo,2023-10-26,Ativo
+CLI-739,Empresa L739,Médio,Tecnologia,2023-10-13,Ativo
+CLI-740,Empresa M740,Médio,Saúde,2023-12-19,Ativo
+CLI-741,Empresa N741,Médio,Construção Civil,2023-10-27,Ativo
+CLI-742,Empresa O742,Médio,Saúde,2022-04-30,Ativo
+CLI-743,Empresa P743,Pequeno,Varejo,2022-02-16,Ativo
+CLI-744,Empresa Q744,Pequeno,Tecnologia,2022-11-08,Ativo
+CLI-745,Empresa R745,Pequeno,Saúde,2022-04-29,Ativo
+CLI-746,Empresa S746,Pequeno,Tecnologia,2022-08-29,Ativo
+CLI-747,Empresa T747,Pequeno,Logística,2022-05-19,Ativo
+CLI-748,Empresa U748,Médio,Saúde,2023-04-10,Ativo
+CLI-749,Empresa V749,Médio,Construção Civil,2023-11-18,Ativo
+CLI-750,Empresa W750,Pequeno,Financeiro,2023-12-15,Cancelado
+CLI-751,Empresa X751,Médio,Logística,2023-03-06,Ativo
+CLI-752,Empresa Y752,Pequeno,Logística,2024-01-31,Ativo
+CLI-753,Empresa Z753,Pequeno,Financeiro,2022-06-08,Ativo
+CLI-754,Empresa A754,Médio,Saúde,2023-11-02,Ativo
+CLI-755,Empresa B755,Médio,Tecnologia,2023-05-17,Ativo
+CLI-756,Empresa C756,Médio,Logística,2023-02-22,Ativo
+CLI-757,Empresa D757,Grande,Construção Civil,2022-02-03,Ativo
+CLI-758,Empresa E758,Pequeno,Financeiro,2023-01-15,Ativo
+CLI-759,Empresa F759,Médio,Varejo,2023-03-31,Cancelado
+CLI-760,Empresa G760,Pequeno,Saúde,2022-08-30,Cancelado
+CLI-761,Empresa H761,Pequeno,Construção Civil,2022-04-12,Cancelado
+CLI-762,Empresa I762,Pequeno,Financeiro,2023-01-12,Ativo
+CLI-763,Empresa J763,Pequeno,Logística,2023-10-23,Ativo
+CLI-764,Empresa K764,Pequeno,Construção Civil,2022-03-04,Ativo
+CLI-765,Empresa L765,Médio,Saúde,2022-10-10,Ativo
+CLI-766,Empresa M766,Pequeno,Varejo,2022-05-06,Ativo
+CLI-767,Empresa N767,Médio,Saúde,2022-04-04,Ativo
+CLI-768,Empresa O768,Pequeno,Financeiro,2022-08-06,Ativo
+CLI-769,Empresa P769,Pequeno,Financeiro,2023-10-17,Ativo
+CLI-770,Empresa Q770,Pequeno,Logística,2022-01-22,Ativo
+CLI-771,Empresa R771,Médio,Tecnologia,2022-12-08,Ativo
+CLI-772,Empresa S772,Médio,Varejo,2022-05-09,Ativo
+CLI-773,Empresa T773,Grande,Logística,2022-07-30,Ativo
+CLI-774,Empresa U774,Médio,Tecnologia,2024-02-23,Ativo
+CLI-775,Empresa V775,Pequeno,Logística,2022-08-01,Ativo
+CLI-776,Empresa W776,Grande,Logística,2022-08-10,Ativo
+CLI-777,Empresa X777,Médio,Varejo,2022-12-03,Cancelado
+CLI-778,Empresa Y778,Pequeno,Varejo,2023-09-03,Ativo
+CLI-779,Empresa Z779,Médio,Tecnologia,2022-10-11,Ativo
+CLI-780,Empresa A780,Médio,Varejo,2022-05-14,Cancelado
+CLI-781,Empresa B781,Pequeno,Logística,2022-09-14,Ativo
+CLI-782,Empresa C782,Médio,Varejo,2022-04-23,Ativo
+CLI-783,Empresa D783,Médio,Financeiro,2022-01-27,Ativo
+CLI-784,Empresa E784,Médio,Varejo,2022-01-16,Ativo
+CLI-785,Empresa F785,Médio,Construção Civil,2022-09-01,Ativo
+CLI-786,Empresa G786,Médio,Logística,2022-11-28,Ativo
+CLI-787,Empresa H787,Médio,Tecnologia,2022-06-28,Cancelado
+CLI-788,Empresa I788,Pequeno,Construção Civil,2022-02-23,Ativo
+CLI-789,Empresa J789,Pequeno,Varejo,2024-01-30,Ativo
+CLI-790,Empresa K790,Médio,Saúde,2023-06-23,Ativo
+CLI-791,Empresa L791,Pequeno,Tecnologia,2024-02-03,Ativo
+CLI-792,Empresa M792,Médio,Tecnologia,2023-05-03,Ativo
+CLI-793,Empresa N793,Grande,Saúde,2024-03-07,Ativo
+CLI-794,Empresa O794,Médio,Construção Civil,2023-06-10,Ativo
+CLI-795,Empresa P795,Pequeno,Logística,2022-04-22,Ativo
+CLI-796,Empresa Q796,Médio,Saúde,2023-05-31,Cancelado
+CLI-797,Empresa R797,Pequeno,Varejo,2023-09-22,Ativo
+CLI-798,Empresa S798,Médio,Tecnologia,2024-01-15,Ativo
+CLI-799,Empresa T799,Pequeno,Financeiro,2023-06-18,Ativo
+CLI-800,Empresa U800,Pequeno,Construção Civil,2023-04-15,Cancelado
+CLI-801,Empresa V801,Pequeno,Financeiro,2022-02-01,Ativo
+CLI-802,Empresa W802,Pequeno,Tecnologia,2023-05-06,Ativo
+CLI-803,Empresa X803,Pequeno,Saúde,2023-03-13,Ativo
+CLI-804,Empresa Y804,Pequeno,Financeiro,2022-04-21,Ativo
+CLI-805,Empresa Z805,Pequeno,Saúde,2023-12-31,Ativo
+CLI-806,Empresa A806,Grande,Saúde,2022-03-17,Ativo
+CLI-807,Empresa B807,Médio,Tecnologia,2022-11-26,Ativo
+CLI-808,Empresa C808,Pequeno,Logística,2022-06-01,Ativo
+CLI-809,Empresa D809,Grande,Tecnologia,2022-05-10,Ativo
+CLI-810,Empresa E810,Médio,Construção Civil,2023-10-02,Ativo
+CLI-811,Empresa F811,Pequeno,Financeiro,2023-08-23,Ativo
+CLI-812,Empresa G812,Médio,Logística,2023-12-31,Cancelado
+CLI-813,Empresa H813,Pequeno,Construção Civil,2023-01-26,Ativo
+CLI-814,Empresa I814,Pequeno,Logística,2023-06-28,Ativo
+CLI-815,Empresa J815,Pequeno,Construção Civil,2023-04-10,Ativo
+CLI-816,Empresa K816,Médio,Logística,2023-09-12,Ativo
+CLI-817,Empresa L817,Médio,Saúde,2022-04-12,Ativo
+CLI-818,Empresa M818,Grande,Financeiro,2022-04-28,Ativo
+CLI-819,Empresa N819,Pequeno,Financeiro,2023-10-29,Ativo
+CLI-820,Empresa O820,Grande,Logística,2024-01-09,Cancelado
+CLI-821,Empresa P821,Médio,Varejo,2023-03-17,Ativo
+CLI-822,Empresa Q822,Médio,Saúde,2022-08-22,Ativo
+CLI-823,Empresa R823,Pequeno,Saúde,2022-12-14,Ativo
+CLI-824,Empresa S824,Pequeno,Saúde,2023-02-13,Ativo
+CLI-825,Empresa T825,Médio,Saúde,2024-01-18,Ativo
+CLI-826,Empresa U826,Pequeno,Tecnologia,2022-11-17,Ativo
+CLI-827,Empresa V827,Pequeno,Saúde,2022-11-17,Ativo
+CLI-828,Empresa W828,Pequeno,Financeiro,2022-09-19,Cancelado
+CLI-829,Empresa X829,Médio,Construção Civil,2022-06-06,Ativo
+CLI-830,Empresa Y830,Pequeno,Financeiro,2023-05-01,Ativo
+CLI-831,Empresa Z831,Médio,Tecnologia,2022-04-04,Ativo
+CLI-832,Empresa A832,Grande,Tecnologia,2022-04-06,Ativo
+CLI-833,Empresa B833,Grande,Saúde,2022-04-09,Cancelado
+CLI-834,Empresa C834,Pequeno,Financeiro,2024-01-27,Cancelado
+CLI-835,Empresa D835,Pequeno,Construção Civil,2022-05-14,Ativo
+CLI-836,Empresa E836,Pequeno,Logística,2022-03-03,Cancelado
+CLI-837,Empresa F837,Grande,Logística,2023-07-30,Ativo
+CLI-838,Empresa G838,Médio,Logística,2022-12-04,Ativo
+CLI-839,Empresa H839,Pequeno,Financeiro,2022-05-06,Ativo
+CLI-840,Empresa I840,Pequeno,Saúde,2022-12-29,Ativo
+CLI-841,Empresa J841,Pequeno,Financeiro,2024-02-08,Cancelado
+CLI-842,Empresa K842,Médio,Saúde,2024-01-09,Ativo
+CLI-843,Empresa L843,Pequeno,Tecnologia,2022-10-22,Cancelado
+CLI-844,Empresa M844,Grande,Logística,2022-11-16,Ativo
+CLI-845,Empresa N845,Médio,Construção Civil,2022-04-17,Ativo
+CLI-846,Empresa O846,Pequeno,Logística,2023-06-04,Ativo
+CLI-847,Empresa P847,Pequeno,Varejo,2022-06-08,Ativo
+CLI-848,Empresa Q848,Pequeno,Financeiro,2023-05-09,Ativo
+CLI-849,Empresa R849,Pequeno,Varejo,2022-04-21,Ativo
+CLI-850,Empresa S850,Grande,Construção Civil,2023-07-24,Ativo
+CLI-851,Empresa T851,Grande,Construção Civil,2022-04-28,Ativo
+CLI-852,Empresa U852,Pequeno,Construção Civil,2023-08-11,Ativo
+CLI-853,Empresa V853,Pequeno,Varejo,2023-03-16,Ativo
+CLI-854,Empresa W854,Médio,Logística,2024-02-25,Ativo
+CLI-855,Empresa X855,Médio,Logística,2023-09-21,Ativo
+CLI-856,Empresa Y856,Pequeno,Financeiro,2023-10-21,Ativo
+CLI-857,Empresa Z857,Médio,Logística,2022-01-27,Ativo
+CLI-858,Empresa A858,Pequeno,Logística,2023-11-05,Cancelado
+CLI-859,Empresa B859,Pequeno,Financeiro,2022-10-01,Ativo
+CLI-860,Empresa C860,Grande,Tecnologia,2022-07-04,Ativo
+CLI-861,Empresa D861,Pequeno,Construção Civil,2023-12-21,Ativo
+CLI-862,Empresa E862,Pequeno,Construção Civil,2022-12-14,Ativo
+CLI-863,Empresa F863,Médio,Construção Civil,2022-01-07,Ativo
+CLI-864,Empresa G864,Médio,Varejo,2022-05-27,Cancelado
+CLI-865,Empresa H865,Médio,Logística,2023-11-05,Ativo
+CLI-866,Empresa I866,Pequeno,Saúde,2022-03-13,Ativo
+CLI-867,Empresa J867,Médio,Varejo,2024-01-29,Ativo
+CLI-868,Empresa K868,Pequeno,Financeiro,2022-02-01,Cancelado
+CLI-869,Empresa L869,Pequeno,Tecnologia,2024-02-04,Ativo
+CLI-870,Empresa M870,Pequeno,Logística,2022-08-09,Ativo
+CLI-871,Empresa N871,Médio,Saúde,2023-03-06,Ativo
+CLI-872,Empresa O872,Médio,Saúde,2022-12-16,Ativo
+CLI-873,Empresa P873,Pequeno,Varejo,2023-01-14,Ativo
+CLI-874,Empresa Q874,Pequeno,Construção Civil,2024-01-09,Ativo
+CLI-875,Empresa R875,Médio,Construção Civil,2024-03-06,Ativo
+CLI-876,Empresa S876,Médio,Logística,2023-09-03,Ativo
+CLI-877,Empresa T877,Pequeno,Tecnologia,2022-02-23,Ativo
+CLI-878,Empresa U878,Grande,Varejo,2022-06-11,Ativo
+CLI-879,Empresa V879,Grande,Logística,2022-02-20,Ativo
+CLI-880,Empresa W880,Pequeno,Financeiro,2022-03-25,Ativo
+CLI-881,Empresa X881,Pequeno,Construção Civil,2023-03-30,Ativo
+CLI-882,Empresa Y882,Pequeno,Financeiro,2023-03-11,Ativo
+CLI-883,Empresa Z883,Pequeno,Saúde,2023-09-14,Ativo
+CLI-884,Empresa A884,Médio,Saúde,2023-03-01,Ativo
+CLI-885,Empresa B885,Pequeno,Construção Civil,2022-08-09,Ativo
+CLI-886,Empresa C886,Pequeno,Logística,2022-04-27,Ativo
+CLI-887,Empresa D887,Grande,Construção Civil,2023-03-17,Cancelado
+CLI-888,Empresa E888,Médio,Tecnologia,2022-10-18,Ativo
+CLI-889,Empresa F889,Médio,Financeiro,2023-11-26,Ativo
+CLI-890,Empresa G890,Pequeno,Logística,2023-05-14,Ativo
+CLI-891,Empresa H891,Pequeno,Logística,2023-11-15,Cancelado
+CLI-892,Empresa I892,Pequeno,Construção Civil,2022-02-16,Ativo
+CLI-893,Empresa J893,Médio,Varejo,2023-02-09,Cancelado
+CLI-894,Empresa K894,Médio,Logística,2022-02-26,Ativo
+CLI-895,Empresa L895,Pequeno,Tecnologia,2022-07-29,Ativo
+CLI-896,Empresa M896,Pequeno,Construção Civil,2022-08-05,Ativo
+CLI-897,Empresa N897,Médio,Varejo,2024-02-22,Ativo
+CLI-898,Empresa O898,Pequeno,Construção Civil,2022-10-24,Ativo
+CLI-899,Empresa P899,Médio,Construção Civil,2022-05-03,Ativo
+CLI-900,Empresa Q900,Pequeno,Tecnologia,2023-05-25,Ativo
+CLI-901,Empresa R901,Grande,Financeiro,2023-03-17,Ativo
+CLI-902,Empresa S902,Pequeno,Varejo,2022-05-13,Ativo
+CLI-903,Empresa T903,Pequeno,Saúde,2023-06-30,Ativo
+CLI-904,Empresa U904,Médio,Financeiro,2022-08-24,Ativo
+CLI-905,Empresa V905,Pequeno,Logística,2023-07-27,Ativo
+CLI-906,Empresa W906,Médio,Financeiro,2022-12-29,Ativo
+CLI-907,Empresa X907,Pequeno,Tecnologia,2023-02-11,Ativo
+CLI-908,Empresa Y908,Pequeno,Financeiro,2022-02-13,Cancelado
+CLI-909,Empresa Z909,Pequeno,Saúde,2022-01-20,Ativo
+CLI-910,Empresa A910,Médio,Saúde,2022-03-21,Ativo
+CLI-911,Empresa B911,Pequeno,Construção Civil,2023-08-13,Ativo
+CLI-912,Empresa C912,Médio,Saúde,2023-08-11,Ativo
+CLI-913,Empresa D913,Médio,Saúde,2023-12-28,Ativo
+CLI-914,Empresa E914,Pequeno,Financeiro,2023-03-04,Cancelado
+CLI-915,Empresa F915,Médio,Construção Civil,2022-04-28,Ativo
+CLI-916,Empresa G916,Grande,Saúde,2022-01-22,Ativo
+CLI-917,Empresa H917,Médio,Construção Civil,2022-06-25,Ativo
+CLI-918,Empresa I918,Médio,Logística,2023-04-17,Ativo
+CLI-919,Empresa J919,Pequeno,Financeiro,2023-01-06,Ativo
+CLI-920,Empresa K920,Grande,Tecnologia,2023-03-24,Ativo
+CLI-921,Empresa L921,Pequeno,Tecnologia,2022-09-07,Ativo
+CLI-922,Empresa M922,Pequeno,Saúde,2023-08-27,Ativo
+CLI-923,Empresa N923,Grande,Saúde,2023-06-21,Ativo
+CLI-924,Empresa O924,Pequeno,Tecnologia,2023-02-10,Ativo
+CLI-925,Empresa P925,Grande,Construção Civil,2024-02-03,Ativo
+CLI-926,Empresa Q926,Pequeno,Construção Civil,2022-08-15,Ativo
+CLI-927,Empresa R927,Grande,Construção Civil,2024-03-08,Ativo
+CLI-928,Empresa S928,Grande,Varejo,2022-03-20,Ativo
+CLI-929,Empresa T929,Médio,Logística,2023-10-11,Ativo
+CLI-930,Empresa U930,Médio,Tecnologia,2023-06-28,Ativo
+CLI-931,Empresa V931,Médio,Logística,2022-07-18,Ativo
+CLI-932,Empresa W932,Pequeno,Construção Civil,2022-12-26,Ativo
+CLI-933,Empresa X933,Grande,Financeiro,2023-10-23,Cancelado
+CLI-934,Empresa Y934,Pequeno,Varejo,2022-08-30,Ativo
+CLI-935,Empresa Z935,Pequeno,Tecnologia,2022-05-30,Ativo
+CLI-936,Empresa A936,Médio,Construção Civil,2022-07-22,Ativo
+CLI-937,Empresa B937,Médio,Varejo,2023-09-09,Ativo
+CLI-938,Empresa C938,Médio,Varejo,2024-02-18,Ativo
+CLI-939,Empresa D939,Médio,Financeiro,2022-03-19,Ativo
+CLI-940,Empresa E940,Pequeno,Varejo,2024-03-02,Ativo
+CLI-941,Empresa F941,Médio,Financeiro,2023-05-21,Cancelado
+CLI-942,Empresa G942,Médio,Saúde,2024-02-12,Ativo
+CLI-943,Empresa H943,Pequeno,Logística,2024-02-18,Ativo
+CLI-944,Empresa I944,Pequeno,Logística,2023-04-05,Ativo
+CLI-945,Empresa J945,Médio,Financeiro,2023-08-02,Cancelado
+CLI-946,Empresa K946,Pequeno,Financeiro,2023-10-13,Ativo
+CLI-947,Empresa L947,Médio,Logística,2022-11-27,Ativo
+CLI-948,Empresa M948,Médio,Financeiro,2022-11-20,Ativo
+CLI-949,Empresa N949,Médio,Varejo,2023-03-27,Ativo
+CLI-950,Empresa O950,Pequeno,Tecnologia,2023-04-26,Ativo
