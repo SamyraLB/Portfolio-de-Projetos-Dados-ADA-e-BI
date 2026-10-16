@@ -199,13 +199,13 @@ O banco de dados foi estruturado em um modelo relacional simples composto por du
    - `data_emissao, data_vencimento, data_pagamento`: Marcos temporais do título.
    - `valor_faturado, valor_pago`: Valores nominais e liquidados.
    - `status_cobranca`: Status do título (Pago, Em Aberto, Inadimplente).
- O Intuito do dataset é simular o histórico de operações do período de 2024 a meados de 2026. Faturas marcadas como Inadimplentes possuem o campo data_pagamento preenchido como valor nulo (NULL), exigindo tratamento especial nas rotinas SQL e DAX.
+ O Intuito do dataset é simular o histórico de operações do período de 2024 até a data de corte de 30/06/2026. Faturas marcadas como Inadimplentes possuem o campo data_pagamento preenchido como valor nulo (NULL), exigindo tratamento especial nas rotinas SQL e DAX.
 ## Parte 6. Preparação e tratamento dos dados
 O principal desafio de qualidade de dados neste escopo foi o tratamento de faturas não pagas.
 - Valores Ausentes (Nulls): Faturas inadimplentes não possuem data_pagamento. No ambiente relacional (SQL), isso foi tratado utilizando a função COALESCE para fixar uma data de corte e permitir o cálculo exato dos dias de atraso.
 - Padronização: Tipagem rigorosa de datas (YYYY-MM-DD) e valores monetários (Float/Decimal) garantida desde a geração no Python até a carga no banco.
 ## Parte 7. Análise exploratória de dados (EDA)
-A etapa exploratória foi conduzida primariamente via SQL. O meu foco foi investigar anomalias de recebimento.
+A etapa exploratória foi conduzida primariamente via SQL dentro do Dbeaver. O meu foco foi investigar anomalias de recebimento.
 - Descoberta inicial: Observou-se rapidamente que, enquanto a emissão de faturas crescia de forma linear, o status "Em Aberto" se concentrava desproporcionalmente em processos Trabalhistas.
 - Investigação de Prazos: Cruzando datas de vencimento e pagamento, o ciclo médio de contratos de Êxito demonstrou uma variação extrema em comparação aos contratos de Partido Fixo.
 ## Parte 8. Criando o banco de dados e as consultas SQL no Dbeaver
@@ -337,7 +337,7 @@ Estrutura Visual da Tela:
 - Gráfico de Pareto que realiza o mapeamento da concentração de faturamento nos maiores clientes.
 - Gráfico de linhas mapeando o crescimento da inadimplência por mês e ano além de apresentar o crescimento do total de faturamento dentro do prazo analisado.
 
-##Parte 11. Principais Resultados e Insights
+## Parte 11. Principais Resultados e Insights
 A partir do cruzamento das análises em SQL e do dashboard no Power BI, comprovaram-se os seguintes pontos críticos de negócio:
 -  **Concentração de Inadimplência na Área Tributaria**: A carteira Tributaria representa o maior volume nominal de faturamento (com R$ 847.734.000 de faturamento), porém é o que possui a maior lacuna de diferença de capital e a taxa percentual de pendencia de 13,28%.
 
@@ -345,7 +345,7 @@ A partir do cruzamento das análises em SQL e do dashboard no Power BI, comprova
 
 - **Risco de Concentração (Curva de Pareto)**: Apenas 12% da carteira corporativa responde por 65% de todo o faturamento do escritório. A análise cruzada revelou que 2 desses 10 maiores clientes apresentavam pendências de pagamento superiores a 60 dias, expondo a banca a um risco iminente de liquidez.
 
-##Parte 12. Conclusão e Recomendações
+## Parte 12. Conclusão e Recomendações
 Síntese
 A análise demonstrou que a saúde financeira do escritório não é comprometida pela falta de novos contratos (volume comercial alto), mas sim pela ineficiência na gestão de cobrança do faturamento faturado e não realizado.
 Recomendações Estratégicas:
@@ -353,7 +353,7 @@ Revisão da Política de Crédito para a Área Tributaria: Estabelecer gatilhos 
 Rebalanceamento de Modalidades Contratuais: Incentivar a transição de contratos puros de Êxito para modelos híbridos (Fixa de Manutenção + Êxito Final), garantindo previsibilidade de caixa mensal.
 Gestão Dedicada para os Top 10 Clientes (Pareto): Criar um comitê de acompanhamento quinzenal para monitorar o status financeiro das contas que compõem os 65% da receita global do escritório.
 
-## 👤 Sobre mim 
+# 👤 Sobre mim 
 **SamyraBentemmuller**
 
 Analista de Dados / BI Specialist
