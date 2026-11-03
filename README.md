@@ -95,7 +95,7 @@ Ou seja, **a inadimplência estrutural gira em torno de 7 %**, estável desde 20
 
 ---
 
-## 🏗️ Arquitetura do projeto
+##  Arquitetura do projeto
 
 | Ferramenta / Linguagem | Função no Projeto |
 | :--- | :--- |
@@ -106,7 +106,7 @@ Ou seja, **a inadimplência estrutural gira em torno de 7 %**, estável desde 20
 | **Git & GitHub** | Versionamento de código e documentação. |
 
 
-## 📁 Estrutura do repositório
+##  Estrutura do repositório
 
 
 ```text
@@ -164,7 +164,7 @@ Tabela de datas com ano, trimestre, mês, `Mes_Ano` e dia da semana, usada nas a
 ---
 
 
-## 🧹 Limpeza, tratamento e validação dos dados
+##  Limpeza, tratamento e validação dos dados
 
 A qualidade do dado define a credibilidade do número que chega ao CFO. O tratamento seguiu três camadas.
 
